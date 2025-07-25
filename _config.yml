@@ -22,12 +22,12 @@ repository               : "manuelholz/manuelholz.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "moi.jpg"
   name             : "Manuel Holz"
   pronouns         : # example: "she/her"  
   bio              : "PostDoc Social Scientist"
   location         : "Leipzig, Germany"
-  employer         : "Chemnitz University of Technology"
+  employer         : "Chemnitz University"
   uri              : # URL
   email            : "manuel.m.holz@gmail.com" 
 
@@ -52,7 +52,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
