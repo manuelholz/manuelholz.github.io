@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-**My research interests** 
-- Bridging conventional survey methods and modern computational analysis of digital data
-- Using BERT models for classification
-- Longitudinal panel modelling
-- Migration, public opionion  
+## My research interests 
+- Bridging conventional **survey** methods and modern **computational** analysis of digital data
+- Using **BERT** models for classification and topic modelling
+- Longitudinal multilevel modelling in **SEM** 
+- Migration, health, public opionion  
