@@ -9,14 +9,14 @@ redirect_from:
 
 ## 🧠 My Research Interests
 
-- 🧪 Bridging conventional **survey** methods and modern **computational** analysis of digital data  
+- 🧪 Bridging **survey** methods and **computational** analysis of digital data  
 - 🤖 Using **BERT** models for classification and topic modelling  
 - 📈 Longitudinal and multilevel modelling in **SEM**  
 - 🌍 Migration, 🏥 health, and 📊 public opinion 
 
 
 
-## Publications 
+## 📄 Publications 
 
 - [in review] Holz, M., Gränitz, J., Mayerl, J. & Kriwy, P. *Computational Approaches to Assessing the Influence of Social Media Discourse on Pandemic Attitudes*. *Soziale Welt Special Volume: Computational Social Science: Current Trends and State of the Art.*
 
