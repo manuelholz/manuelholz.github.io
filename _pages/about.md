@@ -27,6 +27,8 @@ When I'm not apologizing to my CPU for trying to fine-tune a transformer model, 
 
 The conferences I usually attend are: European Survey Research Association (**ESRA**), Venice Seminar on **Analytical Sociology**, RN21 Quantitative Methods of European Sociological Association (**ESA**), RC33 Logic and Methodology in Sociology of International Sociological Associationa (**ISA**), **IMISCOE** (International Migration Research Network) 
 
+For my conference contributions, check my [ResearchGate profile](https://www.researchgate.net/profile/Manuel-Holz-2?ev=hdr_xprf)
+
 ## 📄 Publications 
 
 - [in review] **Holz, M.**, Gränitz, J., Mayerl, J. & Kriwy, P. *Computational Approaches to Assessing the Influence of Social Media Discourse on Pandemic Attitudes*. **Soziale Welt Special Volume: Computational Social Science** Current Trends and State of the Art.
