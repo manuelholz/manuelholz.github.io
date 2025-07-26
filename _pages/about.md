@@ -7,6 +7,14 @@ redirect_from:
   - /about.html
 ---
 
+## 🦉 About Me
+
+Hi there! I'm Manuel, I'm a PostDoc Social Scientist at Chemnitz University of Technology. I love using complicated statistical models for causal inference, but also analyzing Tweets, Online Forums, Wikipedia pages, Telegram Channels etc. using computational methods. 
+
+
+When I'm not apologizing to my CPU for trying to fine-tune a transformer model, I enjoy cooking (especially southeast asian, mexican and mediterranean dishes), lifting weights and spend time with the family
+
+
 ## 🧠 My Research Interests
 
 - 🧪 Bridging **survey** methods and **computational** analysis of digital data  
@@ -14,7 +22,9 @@ redirect_from:
 - 📈 Longitudinal and multilevel modelling in **SEM**  
 - 🌍 Migration, 🏥 health, and 📊 public opinion 
 
+## 🎤 Conferences
 
+The conferences I usually attend are: European Survey Research Association (**ESRA**), Venice Seminar on **Analytical Sociology**, RN21 Quantitative Methods of European Sociological Association (**ESA**), RC33 Logic and Methodology in Sociology of International Sociological Associationa (**ISA**), **IMISCOE** (International Migration Research Network) 
 
 ## 📄 Publications 
 
