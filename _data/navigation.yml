@@ -12,14 +12,8 @@ main:
   - title: "CV"
     url: /files/cv25.pdf
     
-  - title: "Publications"
-    url: /publications/
-
   - title: "Projects"
     url: /portfolio/
-
-  - title: "Talks"
-    url: /talks/    
 
  
         
