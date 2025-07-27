@@ -4,4 +4,4 @@ excerpt: "Short description of portfolio item number 1<br/><img src='/images/500
 collection: portfolio
 ---
 
-<iframe src="/files/project_1.html" width="100%" height="600px" style="border:none;"></iframe>
+[▶️ Präsentation ansehen](./files/project_1.html){target="_blank" .btn}
