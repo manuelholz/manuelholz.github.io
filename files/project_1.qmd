@@ -1,0 +1,119 @@
+---
+title: "COVID Tweets and public opinion"
+author: Manuel Holz, Julia Gränitz, Jochen Mayerl, Peter Kriwy 
+format:
+ revealjs:
+    theme: simple      
+    transition: slide 
+editor: visual
+
+---
+
+<br>
+<br>
+<br>
+
+::: {.callout-tip title="Research Question"}
+
+How does **social media discourse** around the pandemic impact **individual**-level pandemic **attitudes**?
+
+:::
+
+
+## Methods 
+
+<br>
+
+- Harvested **120.977** Tweets containing keywords related to COVID pandemic (sncscrape via Python)
+- Use **geolocation** and **time stamp** to merge with panel survey data (MDRfragt) by county and week 
+- Using Recurrent **Neural Network** via **Tensorflow** in Python for classification &rarr; Corona Skepticism  
+
+
+
+## Main Independent Variable
+
+
+<br>
+
+The incidence rate for county $i$ in week $t$ is calculated as:
+
+$$
+IR_{i,t} = \left( \frac{\text{Corona-skeptic Tweets}_{i,t}}{\text{Population}_{i}} \right) \times 100{,}000
+$$
+<div style="font-size: 60%;">
+
+
+<br>
+
+Variable Definitions
+
+-   $IR_{i,t}$: Corona-skeptic Tweet Incidence rate per 100,000 inhabitants in county $i$ and week $t$
+-   $\text{Corona-skeptic Tweets}_{i,t}$: Sum of Corona-skeptic Tweets in county $i$ during week $t$
+-   $\text{Population}$: Population size of county $i$
+
+</div>
+
+
+  
+# Descriptive Results 
+
+
+
+## Average Fear of infection in survey
+
+<img src="fear.png" width="500px">
+
+
+## Average Corona Skepticism on Twitter
+
+<img src="tweets.png" width="500px">
+
+
+## Next Steps - Fit Multilevel Model 
+
+<div style="font-size: 60%;">
+
+$$
+\begin{align}
+y_{i,t,j} =\; & \beta_0 + \beta_1 \cdot \text{week} +
+\beta_2 \cdot \text{covskept}^{\text{group}}_{j,t} +
+\beta_3 \cdot \text{covskept}^{\text{grand}}_{t} + \\
+& \beta_4 \cdot \text{week} \cdot \text{covskept}^{\text{group}}_{j,t} +
+\beta_5 \cdot \text{week} \cdot \text{covskept}^{\text{grand}}_{t} + \\
+& \beta_6 \cdot \text{sdi}^{\text{group}}_{j,t} +
+\beta_7 \cdot \text{sdi}^{\text{grand}}_{t} +
+\beta_8 \cdot \text{week} \cdot \text{sdi}^{\text{group}}_{j,t} + \\
+& \beta_9 \cdot \text{week} \cdot \text{sdi}^{\text{grand}}_{t} +
+\beta_{10} \cdot \text{age}^{\text{grand}}_i + \\
+& \beta_{11} \cdot \text{gender}^{\text{grand}}_i +
+\beta_{12} \cdot \text{educ}^{\text{grand}}_i + u_j + \epsilon_{i,t,j}
+\end{align}
+$$
+
+
+
+$$
+u_j \sim \mathcal{N}(0, \sigma^2_u), \quad
+\epsilon_{i,t,j} \sim \mathcal{N}(0, \sigma^2)
+$$
+
+</div>
+
+
+<div style="font-size: 40%;">
+
+-   $y_{i,t,j}$: Quasi-metric outcome — fear of infection reported by individual *i* in week *t* and county *j*.
+-   $\text{week}$: Uncentered time variable (in weeks).
+-   $\text{covskept}^{\text{group}}_{j,t}$: County-level COVID skepticism on Twitter (group-mean centered within county).
+-   $\text{covskept}^{\text{grand}}_{t}$: Grand-mean centered COVID skepticism across all counties.
+-   $\text{sdi}^{\text{group}}_{j,t}$: Seven-day incidence rate, group-mean centered within county.
+-   $\text{sdi}^{\text{grand}}_{t}$: Grand-mean centered national seven-day incidence rate.
+-   $\text{age}^{\text{grand}}_i$: Respondent's age (grand-mean centered).
+-   $\text{gender}^{\text{grand}}_i$: Respondent's gender (grand-mean centered dummy or index).
+-   $\text{educ}^{\text{grand}}_i$: Respondent's education level (grand-mean centered).
+-   $u_j$: County-level random intercept, assumed to follow a normal distribution with variance $\sigma^2_u$.
+-   $\epsilon_{i,t,j}$: Individual-level residual error, assumed normally distributed with variance $\sigma^2$.
+
+</div>
+
+
