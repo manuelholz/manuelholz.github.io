@@ -1,6 +1,6 @@
 ---
 title: "Peace in Ancient Greece?"
-excerpt: "<br/><img src='/files/alex_mosaic.png' width='250'>"
+excerpt: "<br/><img src='/images/alex_mosaic.png' width='250'>"
 collection: portfolio
 ---
 
