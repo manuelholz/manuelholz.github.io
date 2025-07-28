@@ -9,7 +9,7 @@ redirect_from:
 
 ## 🦉 About Me
 
-Hi there! I'm Manuel, I'm a PostDoc Social Scientist at Chemnitz University of Technology. I love using complicated statistical models for causal inference, but also analyzing Tweets, Online Forums, Wikipedia pages, Telegram Channels using computational methods. 
+Hi there! I'm Manuel, I'm a PostDoc Social Scientist at Chemnitz University of Technology. I love using complicated statistical models for causal inference, but also using computational methods for analyzing Tweets, Online Forums, Wikipedia pages, Telegram Channels and so on and so on. 
 
 I teach introductory seminars on social data analysis in R (back then also in STATA) and currently work on a handbook for data visualization in R (Springer Nature).  
 
