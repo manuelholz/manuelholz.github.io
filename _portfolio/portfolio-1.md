@@ -1,7 +1,8 @@
 ---
-title: "COVID Tweets and public opinion"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/covid_tweets.png' width='250'>"
+title: "Twitter and public opinion during the pandemic"
 collection: portfolio
+link: "/files/project_1.html"
+image: "/images/covid_tweets.png"
 ---
 
-<a href="/files/project_1.html" target="_blank" class="btn">▶️ Präsentation ansehen</a>
+
