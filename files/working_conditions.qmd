@@ -1,0 +1,76 @@
+---
+title: "Working conditions and the health of migrants"
+author: Manuel Holz, Jochen Mayerl
+format:
+ revealjs:
+    theme: simple      
+    transition: slide 
+editor: visual
+
+---
+
+<br>
+<br>
+<br>
+
+::: {.callout-tip title="Research Question"}
+
+Can **differences** in **working conditions** betweens migrants and native Germans **explain** their differences in **health trajectories?**
+
+:::
+
+
+## Data & Methods 
+
+- German Socioeconomic Panel (**GSOEP**) 2002 - 2016
+- **1st generation** migrants categorized in **European** and **Non-European** origin vs. **native** Germans **without** migration background
+- **Health**: Short Form 12 Item Health Survey (**SF-12**): **6 items** measuring **subjective** physcial health
+- **Working conditions**: Erikson-Goldthorpe Portocarero (**EGP**) Class Scheme: **Higher** class = **better** working conditions 
+
+
+## Model 
+
+- **Latent Growth Curve Model** in Structural Equation Modelling (**SEM**) Framework 
+- Using **Latent Slope** of Physical Health as **dependent variable** and **regress** on **region** of origion and control variables (see next slide)
+- separate analysis by gender
+- Software: **lavaan** in R
+
+## Measurement- and Structural Model 
+
+<img src="lgc_model.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 60%; height: auto;">
+
+
+
+## Results (For Men)
+
+<img src="results_lgc.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 60%; height: auto;">
+
+
+## Results (For Women)
+
+<img src="results_lgc_women.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 60%; height: auto;">
+
+
+
+
+## Conclusion 
+
+- **Varying** effects for **migrant** and **gender** group
+
+- **Non-European men** have a **steeper** health **decline** than native German men 
+- This difference is **explained away** by lower **occupational class** (worse working conditions) 
+
+- **European women** have a **steeper** health **decline** than native German women 
+- This difference is **explained away** by lower **occupational class** (worse working conditions) 
+
+## Link for full paper 
+
+<br>
+<br>
+
+<p><a href="https://link.springer.com/article/10.1007/s11577-025-00985-3" target="_blank">Full paper</a></p>
+
+
+
+
+
