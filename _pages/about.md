@@ -33,7 +33,7 @@ For my conference contributions, check my [ResearchGate profile](https://www.res
 
 - Zehner A., Fölsch M., Menold N., **Holz M.**, Maskow B, Mayerl J (2026) Foreigners welcome? Categorizing change in German mass media discourse with Latent Semantic Analysis (LSA). **PLoS One** 21(2): e0340164
 
-<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340164" target="_blank" class="btn btn--primary">Read the paper</a>
+  <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340164" target="_blank" class="btn btn--primary">Read the paper</a>
 
 - [in review] **Holz, M.**, Gränitz, J., Mayerl, J. & Kriwy, P. *Computational Approaches to Assessing the Influence of Social Media Discourse on Pandemic Attitudes*. **Soziale Welt Special Volume: Computational Social Science** Current Trends and State of the Art.
 
