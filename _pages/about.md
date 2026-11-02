@@ -11,7 +11,7 @@ redirect_from:
 
 Hi there! I'm Manuel, I'm a **PostDoc** Social Scientist at Chemnitz University of Technology. I love using complicated methodology for **modelling attitudes and behavior**, but also using **computational** methods for analyzing Tweets, Online Forums, Wikipedia pages, Telegram Channels, geo data and so on and so on. 
 
-I **teach** introductory seminars on social **data analysis** in R (a 1000 years ago also in STATA and SPSS) and wrote a **handbook** for data **visualization** in R (Springer Nature).  
+I **teach** introductory seminars on social **data analysis** in R (a 1000 years ago also in STATA and SPSS) and wrote a **handbook** for data **visualization** in R (Springer Nature, check out [here](https://doi.org/10.1007/978-3-658-50878-4).  
 
 When I'm not at work, I'm found in the kitchen cooking southeast asian or mexican dishes, lifting weights in the gym or spoiling my little nephews with overpriced cinema tickets. 
 
@@ -30,6 +30,10 @@ The conferences I usually attend are: European Survey Research Association (**ES
 For my conference contributions, check my [ResearchGate profile](https://www.researchgate.net/profile/Manuel-Holz-2?ev=hdr_xprf)
 
 ## 📄 Publications 
+
+- Zehner A., Fölsch M., Menold N., **Holz M.**, Maskow B, Mayerl J (2026) Foreigners welcome? Categorizing change in German mass media discourse with Latent Semantic Analysis (LSA). **PLoS One** 21(2): e0340164
+
+<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340164" target="_blank" class="btn btn--primary">Read the paper</a>
 
 - [in review] **Holz, M.**, Gränitz, J., Mayerl, J. & Kriwy, P. *Computational Approaches to Assessing the Influence of Social Media Discourse on Pandemic Attitudes*. **Soziale Welt Special Volume: Computational Social Science** Current Trends and State of the Art.
 
